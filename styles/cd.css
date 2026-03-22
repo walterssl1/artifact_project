@@ -34,10 +34,6 @@ body {
 		"ft";
 }
 
-
-
-
-
 header {
   color: white;
   background-color: #666;
@@ -149,4 +145,14 @@ footer {
 
 #ft_img p {
   color: #FFF;
+}
+
+#links :first-child{
+  font-style: bold;
+  font-weight: 900;
+}
+
+#contact :first-child{
+  font-style: bold;
+  font-weight: 900;
 }
