@@ -34,6 +34,10 @@ body {
 		"ft";
 }
 
+
+
+
+
 header {
   color: white;
   background-color: #666;
@@ -147,12 +151,46 @@ footer {
   color: #FFF;
 }
 
-#links :first-child{
-  font-style: bold;
-  font-weight: 900;
+
+#troubleshoot_layout{
+display:flex;
+flex-direction:row-reverse;
+gap:40px;
+align-items:flex-start;
 }
 
-#contact :first-child{
-  font-style: bold;
-  font-weight: 900;
+#quick_check_box{
+background:#f4f4f4;
+padding:20px;
+width:260px;
+border-radius:6px;
+height:fit-content;
+}
+
+#quick_check_box h2{
+margin-top:0;
+}
+
+#troubleshooting_main{
+flex:1;
+}
+
+.status{
+display:inline-block;
+width:12px;
+height:12px;
+border-radius:50%;
+margin-right:10px;
+}
+
+.red{background:#e74c3c;}
+.orange{background:#f39c12;}
+.yellow{background:#f1c40f;}
+.blue{background:#3498db;}
+.green{background:#27ae60;}
+.purple{background:#8e44ad;}
+.gray{background:#7f8c8d;}
+
+.issue{
+margin-bottom:35px;
 }
